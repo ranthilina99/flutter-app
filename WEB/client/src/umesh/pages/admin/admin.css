@@ -1,0 +1,29 @@
+.strength-Weak::-webkit-progress-value {
+    background-color: #F25F5C;
+}
+.strength-Fair::-webkit-progress-value {
+    background-color: #FFE066;
+}
+.strength-Good::-webkit-progress-value {
+    background-color: #247BA0;
+}
+.strength-Strong::-webkit-progress-value {
+    background-color: #70C1B3;
+}
+.admin_wrapper{
+    max-width: 700px;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.125);
+    margin: 50px auto;
+    border: 1px solid;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-top: 10px solid black;
+}
+.admin_title{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}

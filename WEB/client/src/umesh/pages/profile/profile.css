@@ -1,0 +1,60 @@
+.profile_page{
+    width: 60%;
+    padding: 60px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.125);
+    margin: 50px auto;
+    border: 1px solid;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-top: 10px solid darkblue;
+}
+.profile_page .col-left{
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.profile_page .col-left .avatar1{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin: 15px auto;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile_page .col-left img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.profile_page .col-left .avatar span{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #fff8;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(255, 140, 45);
+    transition: 0.3s ease-in-out;
+}
+.profile_page .col-left .avatar:hover span{
+    bottom: -25%;
+}
+.profile_page h1{
+    margin: auto;
+}
+.profile_icon{
+    margin-top:40px;
+}
+.profile_title{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}

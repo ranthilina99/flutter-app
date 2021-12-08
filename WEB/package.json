@@ -1,0 +1,39 @@
+{
+  "name": "CSSEProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "index": "nodemon index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run index\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "googleapis": "^84.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.11",
+    "nodemon": "^2.0.12",
+    "firebase": "^9.1.0",
+    "firebase-admin": "^9.11.1",
+    "nodemailer": "^6.6.5"
+  },
+  "devDependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.6.3",
+    "react-redux": "^7.2.4"
+  }
+}
